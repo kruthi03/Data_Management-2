@@ -39,5 +39,5 @@ models:
   Data_Management: 
     +materialized: table
     # Applies to all files under models/example/
-    example:
-      +materialized: view
+    #example:
+      #+materialized: view
